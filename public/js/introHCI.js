@@ -15,5 +15,5 @@ function initializePage() {
 function clickLikeBtn() {
 	e.preventDefault();
 	ga('create', 'G-1FGVFHZ2P8', 'auto');
-	ga('send', 'event', 'signup', 'click');
+	ga('send', 'event', 'like', 'click');
 }
